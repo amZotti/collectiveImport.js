@@ -3,9 +3,7 @@
 JavaScript files into a webpage.</p>
 
 <h2>Syntax</h2>
-<code>__inject(array of scripts, optional prefix for local files)</code>
+<code>__inject(<b>array of scripts</b>, <i>optional prefix for local files</i>)</code>
 
 <h2>Example Usage</h2>
 <code>__inject(["todo.api.js", "todo.App.js", "todo.js", "todo.polyfills.js", "todo.util.js"], "./scripts/todo/");</code>
-
-
