@@ -1,4 +1,4 @@
-function __collectiveImport(srcs, relativeURI) {
+function __inject(srcs, relativeURI) {
   for (i = 0;i < srcs.length;i++)
     __insertScript(srcs[i], relativeURI);
 }
